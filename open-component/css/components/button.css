@@ -1,0 +1,26 @@
+.btn {
+  height: 60px;
+  width: 100%;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  box-shadow: 0 0 12px rgba(40, 151, 64) inset;
+  border: 1px solid rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 1);
+  transition: 0.2s;
+}
+
+.btn__label {
+  color: white;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+  letter-spacing: 2px;
+}
+
+.btn--green {
+  background-color: #35c154;
+}
